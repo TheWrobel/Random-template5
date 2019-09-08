@@ -1,0 +1,21 @@
+//BUTTON RESET
+
+.btn {
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    size: 12px;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 20px;
+    background: -webkit-gradient(linear, left top, right top, from($dark-blue), to($light-blue));
+    background: linear-gradient(to right, $dark-blue, $light-blue);
+    box-shadow: 0 0 20px rgba($dark-blue, 0.25);
+    cursor: pointer;
+    
+    &:hover {
+        cursor: pointer;
+        background: $dark-blue;
+    }
+}
